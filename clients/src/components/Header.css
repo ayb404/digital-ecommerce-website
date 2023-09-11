@@ -1,0 +1,70 @@
+
+
+* { 
+    font-family: 'Raleway', sans-serif;
+    z-index: 999;
+}
+.cantainer {
+    background-color: rgb(237, 91, 38);
+}
+.cantainer-header {
+    width: 100%;
+}
+.menu {
+    background-color: black;
+    display: flex;
+    margin: 0 auto;
+    width: 100%; 
+    height: 100px;
+    text-decoration: none;
+}
+.logo {
+    width: 35%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.logoimg {
+    width: 90px;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    width: 50%;
+
+}
+.butt {
+    background-color: #817e7e;
+    color: aliceblue;
+    position: relative;
+    font-size: 0.8em;
+    border-radius: 10px;
+    padding: 0.3em 0.2;
+    text-decoration: none;
+    border: none;
+    cursor:pointer;
+    box-shadow: 0.5em 0.5em 0.5em #ebe8e84d ;
+}
+.butt::before {
+    position: absolute;
+    content: '';
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
+    background-color: linear-gradient(100deg, );
+    border-radius: 0 0 0.5em 0;
+    box-shadow: 0.2em 0.2em 0.2em #d76c004d ;
+    background-color: rgb(189, 173, 173);
+    transition: 0.8s;
+}
+.butt:hover::before {
+    width:1.6em ;
+    height: 1.6em;
+}
+.butt:active {
+    box-shadow: 0.2em 0.2em 0.3em #0000004d;
+    transform: translate(0.1em, 0.1em);
+}

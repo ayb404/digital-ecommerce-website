@@ -1,0 +1,10 @@
+body {
+    background-image: url("../public/image/dynamic.png");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    top: 0;
+    left: 0;
+}

@@ -1,0 +1,157 @@
+
+.banner1 img {
+    width: 100%;
+    height: 200px;
+
+}
+.wrappe-category {
+    display: flex;
+    gap: 20px;
+}
+.category2 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.shopbycategory {
+    float: left;
+    padding: 16px 20px;
+    margin-bottom: 30px;
+    border: 1px solid 
+
+}
+.category-title {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 0 0 10px;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+    border-bottom: 1px solid rgb(42, 41, 41)
+    
+}
+.category-type {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin: 0;
+    color: rgb(171, 160, 160);
+    cursor: pointer;
+
+}
+ul {
+    list-style: none;
+}
+.shopbycategory {
+    color: rgb(171, 160, 160);
+    
+}
+.filter-type h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 12px;
+    line-height: 25px;
+}
+.stock {
+    cursor: pointer;
+    display: grid;
+    margin-bottom: 10px;
+}
+.stock label {
+    cursor: pointer;
+    
+}
+.filter-price {
+    position: relative;
+    border: 0;
+    width: auto;
+    overflow-y: auto;
+    line-height: 30px;
+}
+
+.filter-price input{
+    width: 80px;
+    margin-left: 10px;
+    background-color: black;
+
+}
+.filter-price label{
+    gap: 20px;
+
+}
+.filter-by-topselling{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+
+.filterage {
+    cursor: pointer;
+    padding: 0 4rem 0 1.5rem;
+    background-color: #1a1a1a;
+    height: 40px;
+    color: white;
+}
+.filter-image {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 20px;
+    margin: 20px;
+}
+.filter-product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.filter-product img {
+    width: 250px;
+    height: 350px;
+}
+.filter-product h1 {
+    color: yellow;
+}
+
+
+/* .category-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .category-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .category-page label {
+    margin-right: 10px;
+  }
+  
+  .category-page select {
+    margin-left: 5px;
+  }
+  
+  .category-page input[type="number"] {
+    width: 60px;
+    margin-left: 5px;
+    margin-right: 10px;
+  }
+  
+  .category-page button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0077ff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .category-page button:hover {
+    background-color: #0066cc;
+  }
+   */

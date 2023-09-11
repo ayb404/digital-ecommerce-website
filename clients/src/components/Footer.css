@@ -1,0 +1,41 @@
+
+.All {
+    /* background-image: url("../../public/image/war.png");
+    background-position: center;
+    background-repeat: no-repeat;   
+    background-size: cover; 
+    overflow: hidden;  */
+}
+.container {
+    z-index: 90;
+
+}
+.test {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-left: 10%;
+}
+footer:not(:first-child) {
+    border-top: 1px solid rgb(255, 255, 255, 0.1);
+}
+.input-group input{
+    background: white;
+}
+footer .input-group-text {
+    background-color: #3b3b3b;
+    color: rgb(196, 10, 10);
+    padding: 8px 17px;
+    border-radius: 9px;
+    cursor: pointer;
+
+
+}
+.social_icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}

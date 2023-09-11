@@ -1,0 +1,19 @@
+.main-terms {
+}
+.terms {
+    width: 80%;
+    margin: 60px auto;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+}
+.container-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.container-policy {
+    width: 90%;
+    padding: 20px 40px;
+    margin: 10px;
+}
